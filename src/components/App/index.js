@@ -3,7 +3,7 @@ import Post from "../Post";
 import Header from "../Header";
 import { ThemeProvider } from "../../context/ThemeContext";
 
-import styles from "./App.scss"
+import { Title } from "./styles";
 
 
 function App() {
@@ -39,7 +39,7 @@ function App() {
   return (
     <ThemeProvider>
       <Header>
-        <h1 className={styles.title}>Posts da semana</h1>
+        <Title as="h2">Posts da semana</Title>
         <button onClick={handleRefresh}>Atualizar</button>
       </Header>
       <hr />
