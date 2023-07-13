@@ -5,7 +5,6 @@ import { ThemeProvider } from "../../context/ThemeContext";
 
 import { Title } from "./styles";
 
-
 function App() {
 
 
